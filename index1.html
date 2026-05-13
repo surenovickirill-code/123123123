@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>BOOKORIA</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- VIDEO BACKGROUND -->
+
+<div class="video-bg">
+
+    <video autoplay muted loop playsinline>
+
+        <source src="booksvideo.mp4" type="video/mp4">
+
+    </video>
+
+</div>
+
+<div class="overlay-dark"></div>
+
+<!-- HEADER -->
+
+<header>
+
+    <div class="logo">
+
+        📚 BOOKORIA
+
+    </div>
+
+    <nav>
+
+        <a href="#books">Книги</a>
+        <a href="#features">Особенности</a>
+        <a href="#about">О нас</a>
+        <a href="#contacts">Контакты</a>
+
+    </nav>
+
+</header>
+
+<!-- HERO -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <div class="line"></div>
+
+        <h1>
+
+            МИР<br>
+            КНИГ<br>
+
+            <span>BOOKORIA</span>
+
+        </h1>
+
+        <p>
+
+            Атмосферный книжный магазин
+            с уютом, кофе и лучшими книгами
+
+        </p>
+
+        <a href="#books" class="main-btn">
+
+            Смотреть книги
+
+        </a>
+
+    </div>
+
+</section>
+
+<!-- FEATURES -->
+
+<section class="features" id="features">
+
+    <div class="feature-box">
+
+        <div class="icon">☕</div>
+
+        <h3>Кофе и чтение</h3>
+
+        <p>
+
+            Уютная атмосфера
+            для отдыха и чтения
+
+        </p>
+
+    </div>
+
+    <div class="feature-box">
+
+        <div class="icon">📚</div>
+
+        <h3>Редкие книги</h3>
+
+        <p>
+
+            Современные
+            и эксклюзивные издания
+
+        </p>
+
+    </div>
+
+    <div class="feature-box">
+
+        <div class="icon">✨</div>
+
+        <h3>Premium атмосфера</h3>
+
+        <p>
+
+            Красивый интерьер
+            и стильный дизайн
+
+        </p>
+
+    </div>
+
+</section>
+
+<!-- BOOKS -->
+
+<section class="books" id="books">
+
+    <div class="title">
+
+        <h2>Популярные книги</h2>
+
+    </div>
+
+    <div class="books-grid">
+
+        <!-- BOOK 1 -->
+
+        <div class="book-card">
+
+            <img src="boock1.jpg.jpg">
+
+            <div class="book-info">
+
+                <h3>Три товарища</h3>
+
+                <p>
+
+                    Атмосферная классика
+                    Эриха Марии Ремарка
+
+                </p>
+
+                <div class="bottom">
+
+                    <span>8900 ₸</span>
+
+                    <button onclick="
+                    openModal(
+                    'boock1.jpg.jpg',
+                    'Три товарища',
+                    'Легендарная книга о дружбе, любви и жизни.',
+                    '8900 ₸'
+                    )
+                    ">
+
+                    Подробнее
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- BOOK 2 -->
+
+        <div class="book-card">
+
+            <img src="boock2.jpg.jpg">
+
+            <div class="book-info">
+
+                <h3>Дом в котором</h3>
+
+                <p>
+
+                    Загадочная
+                    и необычная история
+
+                </p>
+
+                <div class="bottom">
+
+                    <span>9500 ₸</span>
+
+                    <button onclick="
+                    openModal(
+                    'boock2.jpg.jpg',
+                    'Дом в котором',
+                    'Одна из самых атмосферных современных книг.',
+                    '9500 ₸'
+                    )
+                    ">
+
+                    Подробнее
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- BOOK 3 -->
+
+        <div class="book-card">
+
+            <img src="boock3.jpg.jpg">
+
+            <div class="book-info">
+
+                <h3>Цветы для Элджернона</h3>
+
+                <p>
+
+                    Эмоциональная
+                    и культовая история
+
+                </p>
+
+                <div class="bottom">
+
+                    <span>9900 ₸</span>
+
+                    <button onclick="
+                    openModal(
+                    'boock3.jpg.jpg',
+                    'Цветы для Элджернона',
+                    'Очень сильная и эмоциональная книга.',
+                    '9900 ₸'
+                    )
+                    ">
+
+                    Подробнее
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section class="about" id="about">
+
+    <div class="about-text">
+
+        <h2>
+
+            BOOKORIA
+
+        </h2>
+
+        <p>
+
+            Современный книжный магазин
+            с атмосферой уюта,
+            стильным интерьером
+            и лучшими книгами.
+
+        </p>
+
+        <p>
+
+            Место где хочется читать,
+            отдыхать
+            и вдохновляться.
+
+        </p>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer id="contacts">
+
+    <div class="footer-logo">
+
+        📚 BOOKORIA
+
+    </div>
+
+    <p>г. Кокшетау</p>
+
+    <p>+7 777 777 77 77</p>
+
+    <p>Instagram: @bookoria</p>
+
+</footer>
+
+<!-- MODAL -->
+
+<div class="modal" id="bookModal">
+
+    <div class="modal-box">
+
+        <span class="close">&times;</span>
+
+        <img id="modalImg">
+
+        <div class="modal-content">
+
+            <h2 id="modalTitle"></h2>
+
+            <p id="modalText"></p>
+
+            <div class="modal-price" id="modalPrice"></div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+const modal = document.getElementById("bookModal");
+
+const modalImg = document.getElementById("modalImg");
+
+const modalTitle = document.getElementById("modalTitle");
+
+const modalText = document.getElementById("modalText");
+
+const modalPrice = document.getElementById("modalPrice");
+
+function openModal(img, title, text, price){
+
+    modal.style.display = "flex";
+
+    modalImg.src = img;
+
+    modalTitle.innerHTML = title;
+
+    modalText.innerHTML = text;
+
+    modalPrice.innerHTML = price;
+}
+
+document.querySelector(".close").onclick = function(){
+
+    modal.style.display = "none";
+
+}
+
+window.onclick = function(e){
+
+    if(e.target == modal){
+
+        modal.style.display = "none";
+
+    }
+
+}
+
+</script>
+
+</body>
+</html>
